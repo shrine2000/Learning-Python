@@ -11,14 +11,14 @@ class User:
 
     def activate(self) -> None:
         self.is_active = True
-    
+
     def deactivate(self) -> None:
         self.is_active = False
 
 
 def main():
     user1 = User(1, "Alice", "alice@example.com")
-    user2 = User(2, "Bob")  
+    user2 = User(2, "Bob")
     user3 = User(3, "Charlie", is_active=False)
 
     print("User 1:", user1)
