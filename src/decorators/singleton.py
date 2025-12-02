@@ -22,9 +22,9 @@ def Singleton(cls):
 class DBClient:
     def __init__(self):
         print("Initializing DBClient")
-        
-        
+
+
 if __name__ == "__main__":
     a = DBClient()
     b = DBClient()
-    print(a is b) 
+    print(a is b)
